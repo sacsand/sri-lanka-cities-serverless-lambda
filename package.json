@@ -1,0 +1,30 @@
+{
+  "name": "sri-lanka-cities-serverless-lambda",
+  "version": "1.0.0",
+  "description": "building cheap and fast lambda rest api build with AWS free services such as Lambda , DynamoDB",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sacsand/sri-lanka-cities-serverless-lambda.git"
+  },
+  "keywords": [
+    "sri",
+    "lanka",
+    "cities",
+    "rest",
+    "api"
+  ],
+  "author": "sachin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sacsand/sri-lanka-cities-serverless-lambda/issues"
+  },
+  "homepage": "https://github.com/sacsand/sri-lanka-cities-serverless-lambda#readme",
+  "dependencies": {
+    "serverless-dynamodb-local": "^0.2.39",
+    "serverless-offline": "^6.1.4"
+  }
+}
